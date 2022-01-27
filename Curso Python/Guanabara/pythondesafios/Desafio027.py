@@ -2,3 +2,7 @@
 Ex:Ana Maria de Souza
 primeiro = Ana
 último = Souza.'''
+nome = str(input('Digite seu nome completo: ')).strip()
+separado = nome.split()
+print('Seu primeiro nomé é: {}'.format(separado[0]))
+print('Seu ultimo nome é: {}'.format(separado[len(separado)-1]))
