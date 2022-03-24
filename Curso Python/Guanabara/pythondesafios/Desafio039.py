@@ -10,20 +10,29 @@ m = int(input('''Você é homem ou mulher?
 [2] para Homem
 Resposta: '''))
 if m == 1:
-    print('Você não precisa fazer o alistamento obrigatório')
-else:
+    escolha = int(input('''Você quer se alistar no exército Brasileiro ?
+    [1] Sim
+    [2] Não
+    Resposta: '''))
+    if escolha == 1:
+        atual = date.today().year
+        nasceu = int(input('Em que ano você nasceu?:'))
+        idade = atual - nasceu
+    elif escolha == 2:
+        print('Muito obrigado')
+if m == 2:
     atual = date.today().year
     nasceu = int(input('Em que ano você nasceu?:'))
     idade = atual - nasceu
-
-    if idade < 18:
-        print(f'Quem nasceu em {nasceu}, tem {idade} anos de idade em {atual}.')
-        print('Ainda faltam {} anos para o alistamento'.format(18 - idade))
-        print('Seu alistamento será em {}.'.format((18-idade) + atual))
-    elif idade > 18:
-        print(f'Quem nasceu em {nasceu}, tem {idade} anos de idade em {atual}.')
-        print('Você ja deveria ter se alistado há {} anos'.format(idade - 18))
-        print('Seu alistamento foi em {}.'.format(atual - (idade - 18)))
-    else:
-        print(f'Quem nasceu em {nasceu}, tem {idade} anos de idade em {atual}.')
-        print('Você tem que se alistar IMEDIATAMENTE!')
+    
+elif idade < 18:
+    print(f'Quem nasceu em {nasceu}, tem {idade} anos de idade em {atual}.')
+    print('Ainda faltam {} anos para o alistamento'.format(18 - idade))
+    print('Seu alistamento será em {}.'.format((18-idade) + atual))
+elif idade > 18:
+    print(f'Quem nasceu em {nasceu}, tem {idade} anos de idade em {atual}.')
+    print('Você ja deveria ter se alistado há {} anos'.format(idade - 18))
+    print('Seu alistamento foi em {}.'.format(atual - (idade - 18)))
+else:
+    print(f'Quem nasceu em {nasceu}, tem {idade} anos de idade em {atual}.')
+    print('Você tem que se alistar IMEDIATAMENTE!')
