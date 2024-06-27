@@ -6,7 +6,8 @@ body {
     font-size: 20px;
 }
 h1 {
-    color: darkblue;
+    color: maroon;
+    background-color: darkgoldenrod;
 }
 h2 {
     color: darkred;
