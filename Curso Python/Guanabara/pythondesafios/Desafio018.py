@@ -2,8 +2,8 @@
 from math import sin,cos,tan,radians
 num = float(input('Digite um angulo: '))
 seno = sin(radians(num))
-print('O ângulo de {}° em SENO é {:.2f}.'.format(num,seno))
+print(f'O ângulo de {num}° em SENO é {seno:.2f}.')
 cosseno = cos(radians(num))
-print('O ângulo de {}° em COSSENO é {:.2f}.'.format(num,cosseno))
+print(f'O ângulo de {num}° em COSSENO é {cos:.2f}.')
 tang = tan(radians(num))
-print('O ângulo de {}° na TANGENTE é {:.2f}'.format(num,tang))
+print(f'O ângulo de {num}° na TANGENTE é {tang:.2f}')

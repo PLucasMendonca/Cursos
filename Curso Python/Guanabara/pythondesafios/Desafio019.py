@@ -6,4 +6,4 @@ terceiro_aluno = str(input('Terceiro aluno: '))
 quarto_aluno = str(input('Quarto Aluno: '))
 lista = [primeiro_aluno, segundo_aluno, terceiro_aluno, quarto_aluno]
 escolhido = choice(lista)
-print('O aluno sorteado foi {}'.format(escolhido))
+print(f'O aluno sorteado foi {escolhido}')

@@ -2,4 +2,4 @@
 km = float(input('Quantos quilometros você percorreu ? '))
 dias = int(input('Por quantos dias ? '))
 total = (dias * 60) + (km * 0.15)
-print('O total a pagar de {}Km por {} dias é de {:.2f}R$'.format(km,dias,total))
+print(f'O total a pagar de {km}Km por {dias} dias é de {total :.2f}R$')

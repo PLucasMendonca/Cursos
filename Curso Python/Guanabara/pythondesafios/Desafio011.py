@@ -2,7 +2,7 @@
 n = float(input('Digite a largura de sua parede em metros:'))
 n2 = float(input('Digite a altura de sua parede em metros:'))
 a = n * n2
-print('Sua parede tem a dimensão de {}x{} e sua área é de {}m2.'.format(n,n2,a))
+print(f'Sua parede tem a dimensão de {n}x{n2} e sua área é de {a}m2.')
 t = a / 2
-print('Para pintar essa parede, você precisará de {}l de tinta'.format(t))
+print(f'Para pintar essa parede, você precisará de {t}l de tinta')
 

@@ -7,4 +7,4 @@ dam = n / 10
 hm = n / 100
 km = n / 1000
 
-print('{} metros em todas as medidas são: \nEm decimetro é igual a {} \nEm centimetros é igual a {}.\nEm milímetros é igual a {}\nEm decâmetro é igual a {}\nEm hectômetro é igual a {}\nEm quilômetro é igual a {} '.format(n,dm, cm, mm,dam,hm,km))
+print(f'{n} metros em todas as medidas são: \nEm decimetro é igual a {dm} \nEm centimetros é igual a {cm}.\nEm milímetros é igual a {mm}\nEm decâmetro é igual a {dam}\nEm hectômetro é igual a {hm}\nEm quilômetro é igual a {km} ')
