@@ -3,15 +3,16 @@ A)Quantas vezes apareceu o valor 9.
 B)Em que posição foi digitado o primeiro valor 3.
 C)Quais foram os número pares.'''
 
-n = (int(input('Digite um número: ')),int(input('Digite outro número: ')),int(input('Digite mais um número: ')),int(input('Digite o ultimo número: ')))
-print(f'Você digitou {n}')
-print(f'O número 9 apareceu {n.count(9)} vezes')
-if 3 in n:
-    print(f'O número 3 apareceu na posição de número {n.index(3)+1}')
-else:
-    print('O número 3 não foi digitado')
+valores = (int(input('Digite o primeiro valor :')), int(input('Digite o segundo valor: ')), int(input('Digite o terceiro valor: ')), int(input('Digite o ultimo valor: ')))
 
-print(f'Os números pares digitados foram :', end='')
-for numero in n:
-    if numero % 2 == 0:
-        print(numero, end='')
+
+print(f'Seus valores digitados foram: {valores}')
+print(f'O número 9 apareceu {valores.count(9)} vezes')
+if 3 in valores:
+    print(f'O número 3 aparece primeiro na {valores.index(3)+1}° posição')
+else:
+    print('O valor 3 não foi digitado em nenhuma posição')
+print('Os valores pares foram :', end='')
+for n in valores:
+    if n % 2 ==0:
+        print(n,end=' ')

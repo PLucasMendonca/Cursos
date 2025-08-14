@@ -27,9 +27,8 @@ print(f'A quantidade de pessoas cadastradas é de: {len(lista)} pessoas')
 print(f'O maior peso foi de {mai}Kg. peso de ', end='')
 for p in lista:
     if p[1] == mai:
-        print(f'[{p[0]}]', end ='')
-print()
+        print(f'{p[0]} ', end ='')
 print(f'O menor peso foi de {men}Kg.Peso de ',end='')
 for p in lista:
     if p[1] == men:
-        print(f'[{p[0]}]', end='')
+        print(f'{p[0]} ', end='')

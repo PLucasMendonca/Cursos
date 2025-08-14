@@ -7,8 +7,9 @@ Ola, Mundo!
 def escreva(msg):
   tam = len(msg) + 4
   print('~'* tam)
-  print(f'  {msg}')
+  print(f'   {msg}')
   print('~'* tam)
 
 #Código principal
-escreva('Ola Mundo')
+escreva('Lucas')
+escreva('Programador')

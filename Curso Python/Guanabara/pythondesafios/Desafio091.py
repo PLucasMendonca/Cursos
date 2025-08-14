@@ -18,3 +18,9 @@ print(' ==RANKING DOS JOGADORES==')
 for i,v in enumerate(ranking):
   print(f'{i+1}° lugar: {v[0]} com {v[1]}')
   sleep(1)
+
+  '''ex:
+1° lugar: Jogador 4 com 6
+2° lugar: Jogador 2 com 4
+3° lugar: Jogador 3 com 2
+4° lugar: Jogador 1 com 1'''

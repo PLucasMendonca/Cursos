@@ -1,4 +1,4 @@
-'''Crie um programa que liea nome, seo e idade de várias pessoas, guardando os dados de cada pessoa em um dicionário e todos os dicionários em uma lista. No final, mostre: 
+'''Crie um programa que leia nome, sexo e idade de várias pessoas, guardando os dados de cada pessoa em um dicionário e todos os dicionários em uma lista. No final, mostre: 
 A)Quantas pessoas foram cadastradas
 B)A média de idade do grupo.
 C)Uma lista com todas as mulheres.
@@ -11,10 +11,10 @@ while True:
   dados.clear()
   dados['nome'] = str(input('Nome: '))
   while True:
-    dados['sexo'] = str(input('Sexo: [M/F]').upper()[0])
+    dados['sexo'] = str(input('Sexo: [M/F]').strip().upper()[0])
     if dados['sexo'] in 'MF':
       break
-    print('ERRO! Por favotr, digite apenas M ou F.')
+    print('ERRO! Por favor, digite apenas M ou F.')
   dados['idade'] = int(input('Idade: '))
   soma += dados['idade']
   pessoas.append(dados.copy())
