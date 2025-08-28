@@ -16,5 +16,7 @@ int main(void) {
 
   printf("Digite outro caracter: ");
   scanf("%c", &letra2);
+
+  printf("O primeiro caracter foi %c\n e o segundo foi %c",letra1, letra2);
   return 0;
 }

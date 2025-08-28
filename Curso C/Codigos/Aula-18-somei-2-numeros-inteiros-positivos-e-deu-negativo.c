@@ -12,7 +12,11 @@
 
 int main(void) {
 
-  short float x = 3.1415;
-  printf("Um float precisa de %d bytes de memória.\n", sizeof x);
+  long long int x = 2147483648;
+
+  printf("O valor de x em bytes : %d\n", sizeof x);
+  printf("O valor de x : %lld\n", x);
+  x++;
+  printf("O valor de x : %lli\n", x);
   return 0;
 }
