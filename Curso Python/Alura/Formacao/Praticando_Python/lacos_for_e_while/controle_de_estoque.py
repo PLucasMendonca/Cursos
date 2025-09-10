@@ -10,3 +10,10 @@ Venda realizada! Estoque restante:1
 Venda realizada! Estoque restante:0
 Estoque esgotado
 '''
+
+estoque = 5
+while estoque > 0:
+    estoque -= 1
+    print(f'Venda realizada! Estoque restante:{estoque}')
+
+print('Estoque esgotado') 

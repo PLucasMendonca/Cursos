@@ -10,3 +10,11 @@ análise de dados
 Projeto ausente
 aplicativo móvel
 '''
+
+projetos = ["website", "jogo", "análise de dados", None, "aplicativo móvel"]
+
+for c in projetos:
+    if c is None:
+        print('Projeto ausente')
+    else:
+        print(c)

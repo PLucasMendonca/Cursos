@@ -9,3 +9,6 @@ Bem-vindo ao Buscante!
 Bem-vindo ao Buscante!
 Bem-vindo ao Buscante!
 '''
+
+for c in range(5):
+    print('Bem-vindo ao Buscante!')

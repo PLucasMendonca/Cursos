@@ -3,3 +3,10 @@
 clientes = ["João", "Maria", "Carlos", "Ana", "Beatriz"]
 
 Ajude Ana a decidir entre usar um laço for ou while. Escreva o programa usando o laço que você acredita ser mais adequado para essa tarefa e explique por que escolheu esse laço.'''
+
+#Resposta: Acredito que o For é mais adequado pois ja possuimos o tamanho da lista 
+
+clientes = ["João", "Maria", "Carlos", "Ana", "Beatriz"]
+
+for cliente in clientes:
+    print(f'Cliente: {cliente}')

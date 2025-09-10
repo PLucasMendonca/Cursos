@@ -3,3 +3,11 @@
 valores = [10, 20, 30, 40, 50]
 
 Crie um programa para implementar a soma.'''
+
+valores = [10, 20, 30, 40, 50]
+soma = 0
+
+for c in valores:
+    soma +=c
+    
+print(f'A soma total das receitas é: {soma}')
